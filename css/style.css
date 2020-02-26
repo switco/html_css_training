@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'Cardo-Bold';
+  src: url('../fonts/cardo/Cardo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'flenja';
+  src: url('../fonts/flenja/flenja.otf');
+}
+
+@font-face {
+  font-family: 'Butler_Light';
+  src: url('../fonts/butler/Butler_Light.otf');
+}
+
+html, body, .container, .top_text, .logo, .title_1, .title_2 {
+  display: flex;
+}
+
+html, body, .top_text, .logo, .title_1, .title_2 {
+  justify-content: center;
+}
+
+/* FONTS SIZE */
+.title_font {
+  font-size: 40px;
+}
+
+.font_big {
+  font-size: 55px;
+}
+
+.extra_small {
+  font-size: 5px;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.bottom_medium {
+  font-size: 7px;
+}
+
+.bottom_small {
+  font-size: 5px;
+}
+
+.font_date {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.bottom {
+  font-size: 8px;
+}
+
+/* FIN FONT SIZE */
+.container {
+  height: 756px;
+  width: 563px;
+  background: url("../images/affiche_bg.jpg");
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  color: #CBAB7E;
+}
+
+.top_text {
+  top: 40px;
+  padding: 0 70px;
+  font-size: 18px;
+  font-family: 'flenja';
+  letter-spacing: 1px;
+}
+
+img {
+  width: 70px;
+  bottom: 131px;
+}
+
+.title_1 {
+  bottom: 98px;
+  letter-spacing: 4px;
+}
+
+.title_2 {
+  bottom: 73px;
+  letter-spacing: 2px;
+}
+
+.bottom_text {
+  font-family: 'flenja';
+  font-size: 6px;
+  color: #8A7B5B;
+}
+
+.regular_text {
+  font-size: 12px;
+  padding: 0px 70px 20px 70px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.and_text, .with_text, .title_2, .title_1, img, .top_text {
+  position: absolute;
+}
+
+.and_text, .with_text {
+  top: 41px;
+}
+
+.decoration {
+  border-top: solid 1px;
+}
+
+.logo, .title_1, .title_2 {
+  align-items: flex-end;
+}
+
+.logo, .title_1, .title_2, .bottom {
+
+  font-family: 'Cardo-Bold'
+}
+
+.position {
+  line-height: 40px;
+}
+
+.title_1, .title_2, .decoration, .color_date {
+  color: #d9a434;
+}
+
+/* PADDING & MARGIN */
+.top_names {
+  padding: 0 5px;
+}
+
+.remove_padding_left {
+  padding: 0 5px 0 0;
+}
+
+.remove_padding_right {
+  padding: 0 0 0 5px;
+}
+
+.remove_padding_left, .remove_padding_right, .regular_text, .top_names {
+  text-align: center;
+}
+
+.line, .regular_text {
+  margin: 0;
+}
+
+.with_text {
+  right: 153px;
+}
+
+.and_text {
+  right: 89px;
+}
+
+.bottom_logo_right {
+  width: 40px;
+  position: absolute;
+  bottom : 19px;
+  right: 78px;
+}
+
+.bottom_logo_left {
+  width: 30px;
+  position: absolute;
+  bottom : 24px;
+  left: 83px;
+}
